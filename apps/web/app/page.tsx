@@ -31,7 +31,7 @@ export default function Page(): JSX.Element {
 
   return (
     <div>
-      <h1>Add Token</h1>
+      <h1>Add Token to backend</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
