@@ -7,7 +7,7 @@ on:
     paths:
       - 'apps/web/**' # The path to your build output folder.
       - 'pnpm-*'
-      - '.github/workflows/ghpage.yml'
+      - '.github/workflows/main.yml'
 
 permissions:
   contents: read
