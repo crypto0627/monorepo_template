@@ -44,7 +44,7 @@ jobs:
       #     echo NEXT_PUBLIC_PRIVATE_KEY=${{secrets.NEXT_PUBLIC_PRIVATE_KEY}} >> ./apps/web/.env
       
       - name: Build my App
-        run: pnpm run build
+        run: pnpm run build --filter=web
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
