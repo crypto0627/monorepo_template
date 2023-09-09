@@ -20,7 +20,7 @@ export default function Page(): JSX.Element {
         body: JSON.stringify(userData),
       });
 
-      const result = await response.json();
+      const result:any = await response.json();
 
       setResponse(JSON.stringify(result, null, 2));
     } catch (error) {
